@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-// import { GaslessSDK, GaslessConfig, GaslessTransferParams } from "../../../gasless-sdk/src/index";
-import { GaslessSDK, GaslessConfig, GaslessTransferParams } from "gasless-sdk";
+import { GaslessSDK, GaslessConfig, GaslessTransferParams } from "gasless-core";
 import { createPublicClient, http, type Address } from "viem";
 import { mainnet } from "viem/chains";
 
